@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
+import NavBar from '../share/navbar.js';
+import Footer from '../share/footer.js';
+import Slider from '../sections/slider.js';
+import Team from '../sections/team.js';
 
-
-
-function Home() {
+export default class Home extends Component {
+	render (){
   return (
 
     <div id="wrapper">
@@ -10,7 +13,7 @@ function Home() {
 		<div className="main-nav">
 			<div className="logo-left">
 				<a data-scroll href="#home">
-					<img src="img/logo.png" alt="logo"/>
+					<img src={"img/logo.png"} alt="logo"/>
 				</a>
 			</div>
 			<div className="menu-button toggle-menu menu-right push-body">
@@ -19,59 +22,9 @@ function Home() {
 		</div>
 
 
-		<nav id="main-navigation" className="nav-menu nav-menu-vertical nav-menu-right">
-			<ul className="list-inline">
-				<li className="current"><a href="#home">home</a></li>
-				<li><a href="#features">Our Services</a></li>
-				<li><a href="#courses">Courses</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#teams">The Team</a></li>
-				<li><a href="#latest-blog">Blog</a></li>
-				<li><a href="#client-feedback">Testimonials</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
+		<NavBar/>
 
-
-
-
-
-		<section id="home">
-			<div id="home-slider" className="carousel slide in" data-ride="carousel">
-
-			<ol className="carousel-indicators">
-				<li className="active" data-slide-to="0" data-target="#home-slider"></li>
-				<li data-slide-to="1" data-target="#home-slider" className=""></li>
-				<li data-slide-to="2" data-target="#home-slider" className=""></li>
-			</ol>
-
-		      <div className="carousel-inner">
-		        <div className="item active">
-		        	<div className="col-sm-offset-1 caption caption-wide">
-		        		<h1 className="main-title wow fadeInUp" data-wow-delay=".25s">Free<br/>Photography<br/>website<br/>template</h1>
-
-		        		<a className="btn btn-start wow fadeInUp" href="#features" data-scroll data-wow-delay=".85s">Learn More</a>
-		        	</div>
-		        </div>
-		        <div className="item">
-		        	<div className="col-sm-offset-1 caption caption-wide">
-		        		<h1 className="main-title wow fadeInUp" data-wow-delay=".25s">An Effortless <br/>Photography <br/>Website<br/>Template</h1>
-		        		<a className="btn btn-start wow fadeInUp" href="#features" data-scroll data-wow-delay=".85s">Free Download</a>
-		        	</div>
-		        </div>
-		        <div className="item">
-		          <div className="col-sm-offset-1 caption">
-		        		<h1 className="main-title wow fadeInUp" data-wow-delay=".25s">Cherish every<br/>moment</h1>
-		        		<p className="sub-title wow fadeInUp" data-wow-delay=".55s">Up & Running in minutes</p>
-		        		<a className="btn btn-start wow fadeInUp" href="#features" data-scroll data-wow-delay=".85s">Read More</a>
-		        	</div>
-		        </div>
-		      </div>
-		    </div>
-		</section>
-
-
-
+		<Slider/>
 
 		<section id="features">
 			<div className="container">
@@ -326,110 +279,7 @@ function Home() {
 
 
 
-		<section id="teams" className="ptb100">
-			<div className="container">
-				<h3 className="section-title wow fadeInDown">The Best Team</h3>
-				<p className="section-info col-sm-8 col-sm-offset-2 wow fadeInDown" data-wow-dealy=".25s">
-					There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
-				</p>
-				<div className="clearfix"></div>
-
-				<div className="row">
-					<div className="col-lg-3 col-sm-6 col-xs-12 team-member wow fadeInDown" data-wow-delay=".25s">
-						<div className="content">
-							<figure className="member-pic">
-								<img src="img/team/01.jpg" alt="team-member" className="img-100p"/>
-								<figcaption className="caption">
-									<div className="color-overlay overflow-content-full">
-										<ul className="social-icon horizontal-vertical-center list-inline">
-											<li><a href="#"><i className="fa fa-facebook-official "></i></a></li>
-											<li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-											<li><a href="#"><i className="fa fa-google-plus-square "></i></a></li>
-										</ul>
-									</div>
-								</figcaption>
-							</figure>
-							<div className="member-info">
-								<p className="position">Wedding Photography Chief</p>
-								<p className="name">John Dongi</p>
-								<p>
-									This free website template is the first step to get you started with your personal photography website.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div className="col-lg-3 col-sm-6 col-xs-12 team-member wow fadeInDown" data-wow-delay=".45s">
-						<div className="content">
-							<figure className="member-pic">
-								<img src="img/team/02.jpg" alt="team-member" className="img-100p"/>
-								<figcaption className="caption">
-									<div className="color-overlay overflow-content-full">
-										<ul className="social-icon horizontal-vertical-center list-inline">
-											<li><a href="#"><i className="fa fa-facebook-official "></i></a></li>
-											<li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-											<li><a href="#"><i className="fa fa-google-plus-square "></i></a></li>
-										</ul>
-									</div>
-								</figcaption>
-							</figure>
-							<div className="member-info">
-								<p className="position">Festival Photography Chief</p>
-								<p className="name">John Donga</p>
-								<p>
-									Learn the game and get some fame. Don't restrict your photography viewership to your close circle.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div className="col-lg-3 col-sm-6 col-xs-12 team-member wow fadeInDown" data-wow-delay=".65s">
-						<div className="content">
-							<figure className="member-pic">
-								<img src="img/team/03.jpg" alt="team-member" className="img-100p"/>
-								<figcaption className="caption">
-									<div className="color-overlay overflow-content-full">
-										<ul className="social-icon horizontal-vertical-center list-inline">
-											<li><a href="#"><i className="fa fa-facebook-official "></i></a></li>
-											<li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-											<li><a href="#"><i className="fa fa-google-plus-square "></i></a></li>
-										</ul>
-									</div>
-								</figcaption>
-							</figure>
-							<div className="member-info">
-								<p className="position">Photography Template Designer</p>
-								<p className="name">Johhny D.</p>
-								<p>
-									Go beyond and make it public on your photography website.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div className="col-lg-3 col-sm-6 col-xs-12 team-member wow fadeInDown" data-wow-delay=".85s">
-						<div className="content">
-							<figure className="member-pic">
-								<img src="img/team/04.jpg" alt="team-member" className="img-100p"/>
-								<figcaption className="caption">
-									<div className="color-overlay overflow-content-full">
-										<ul className="social-icon horizontal-vertical-center list-inline">
-											<li><a href="#"><i className="fa fa-facebook-official "></i></a></li>
-											<li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-											<li><a href="#"><i className="fa fa-google-plus-square "></i></a></li>
-										</ul>
-									</div>
-								</figcaption>
-							</figure>
-							<div className="member-info">
-								<p className="position">Photography Template Developer</p>
-								<p className="name">J. Dongian</p>
-								<p>
-									This week's free website template by Frittt is a photography website.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		<Team/>
 
 
 
@@ -612,49 +462,11 @@ function Home() {
 
 
 
-		<section id="footer">
-			<div className="container bottom-part">
-				<div className="row">
-					<div className="col-sm-4 left-part">
-						<p className="footer-logo "><img src="img/logo.png" alt="logo"/></p><br/>
-						<p>This free website template is the first step to get you started with your personal photography website. Learn the game and get some fame. Don't restrict your photography viewership to your close circle. Go beyond and make it public on your photography website. </p>
-					</div>
-					<div className="col-sm-4 col-sm-offset-4">
-						<ul className="social-icon-footer list-inline mtb50">
-							<li><a href="#"><i className="fa fa-facebook-square"></i></a></li>
-							<li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-							<li><a href="#"><i className="fa fa-google-plus-square"></i></a></li>
-							<li><a href="#"><i className="fa fa-vimeo-square"></i></a></li>
-							<li><a href="#"><i className="fa fa-youtube-square"></i></a></li>
-							<li><a href="#"><i className="fa fa-tumblr-square"></i></a></li>
-							<li><a href="#"><i className="fa fa-linkedin-square"></i></a></li>
-						</ul>
-						<form action="#" className="form subscribe-form">
-							<p className="text-uppercase mtb20">get subscribed to the photography tips and news</p>
-							<input type="email" className="form-control" placeholder="Enter your email:"/>
-						</form>
-					</div>
-				</div>
-			</div>
-
-
-			<div className="copyright">
-				<div className="container">
-					<div className="row">
-						<div className="col-sm-6 col-sm-offset-4">
-							<p className="info">
-								&copy; <a href="https://www.frittt.com/" target="_blank">Frittt Templates</a>. Free Photography Website Template.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		<Footer/>
 
 
 	</div>
-
-  );
+		);
+	}
 }
 
-export default Home;
