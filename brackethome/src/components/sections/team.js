@@ -17,16 +17,16 @@ const Team = () => {
 								<figcaption className="caption">
 									<div className="color-overlay overflow-content-full">
 										<ul className="social-icon horizontal-vertical-center list-inline">
-											<li><a href="#"><i className="fa fa-facebook-official "></i></a></li>
-											<li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-											<li><a href="#"><i className="fa fa-google-plus-square "></i></a></li>
+											<li><a href=""><i className="fa fa-facebook-official "></i></a></li>
+											<li><a href=""><i className="fa fa-twitter-square"></i></a></li>
+											<li><a href=""><i className="fa fa-google-plus-square "></i></a></li>
 										</ul>
 									</div>
 								</figcaption>
 							</figure>
 							<div className="member-info">
 								<p className="position">Wedding Photography Chief</p>
-								<p className="name">John Dongi</p>
+								<p className="name">Jonathan Juliac</p>
 								<p>
 									This free website template is the first step to get you started with your personal photography website.
 								</p>
@@ -40,16 +40,16 @@ const Team = () => {
 								<figcaption className="caption">
 									<div className="color-overlay overflow-content-full">
 										<ul className="social-icon horizontal-vertical-center list-inline">
-											<li><a href="#"><i className="fa fa-facebook-official "></i></a></li>
-											<li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-											<li><a href="#"><i className="fa fa-google-plus-square "></i></a></li>
+											<li><a href=""><i className="fa fa-facebook-official "></i></a></li>
+											<li><a href=""><i className="fa fa-twitter-square"></i></a></li>
+											<li><a href=""><i className="fa fa-google-plus-square "></i></a></li>
 										</ul>
 									</div>
 								</figcaption>
 							</figure>
 							<div className="member-info">
 								<p className="position">Festival Photography Chief</p>
-								<p className="name">John Donga</p>
+								<p className="name">Orlando Monroy</p>
 								<p>
 									Learn the game and get some fame. Don't restrict your photography viewership to your close circle.
 								</p>
@@ -63,16 +63,16 @@ const Team = () => {
 								<figcaption className="caption">
 									<div className="color-overlay overflow-content-full">
 										<ul className="social-icon horizontal-vertical-center list-inline">
-											<li><a href="#"><i className="fa fa-facebook-official "></i></a></li>
-											<li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-											<li><a href="#"><i className="fa fa-google-plus-square "></i></a></li>
+											<li><a href=""><i className="fa fa-facebook-official "></i></a></li>
+											<li><a href=""><i className="fa fa-twitter-square"></i></a></li>
+											<li><a href=""><i className="fa fa-google-plus-square "></i></a></li>
 										</ul>
 									</div>
 								</figcaption>
 							</figure>
 							<div className="member-info">
 								<p className="position">Photography Template Designer</p>
-								<p className="name">Johhny D.</p>
+								<p className="name">Johhny Toledo.</p>
 								<p>
 									Go beyond and make it public on your photography website.
 								</p>
@@ -86,16 +86,16 @@ const Team = () => {
 								<figcaption className="caption">
 									<div className="color-overlay overflow-content-full">
 										<ul className="social-icon horizontal-vertical-center list-inline">
-											<li><a href="#"><i className="fa fa-facebook-official "></i></a></li>
-											<li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-											<li><a href="#"><i className="fa fa-google-plus-square "></i></a></li>
+											<li><a href=""><i className="fa fa-facebook-official "></i></a></li>
+											<li><a href=""><i className="fa fa-twitter-square"></i></a></li>
+											<li><a href=""><i className="fa fa-google-plus-square "></i></a></li>
 										</ul>
 									</div>
 								</figcaption>
 							</figure>
 							<div className="member-info">
 								<p className="position">Photography Template Developer</p>
-								<p className="name">J. Dongian</p>
+								<p className="name">luis Rodriguez</p>
 								<p>
 									This week's free website template by Frittt is a photography website.
 								</p>

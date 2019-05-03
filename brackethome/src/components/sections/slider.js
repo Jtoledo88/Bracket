@@ -11,7 +11,7 @@ const Slider = () => {
 			</ol>
 
 		      <div className="carousel-inner">
-		        <div className="item active" style={{backgroundImage: "img/slider/01.jpg"}}>
+		        <div className="item active" style={{backgroundImage: "url(img/slider/01.jpg)"}}>
 		        	<div className="col-sm-offset-1 caption caption-wide">
 		        		<h1 className="main-title wow fadeInUp" data-wow-delay=".25s">Free<br/>Photography<br/>website<br/>template</h1>
 		        		<a className="btn btn-start wow fadeInUp" href="#features" data-scroll data-wow-delay=".85s">Learn More</a>

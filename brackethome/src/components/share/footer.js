@@ -5,18 +5,18 @@ const Footer = () => {
 			<div className="container bottom-part">
 				<div className="row">
 					<div className="col-sm-4 left-part">
-						<p className="footer-logo "><img src="img/logo.png" alt="logo"/></p><br/>
+						<p className="footer-logo "><img src="img/bracketLogo.jpeg" alt="logo"/></p><br/>
 						<p>This free website template is the first step to get you started with your personal photography website. Learn the game and get some fame. Don't restrict your photography viewership to your close circle. Go beyond and make it public on your photography website. </p>
 					</div>
 					<div className="col-sm-4 col-sm-offset-4">
 						<ul className="social-icon-footer list-inline mtb50">
-							<li><a href="#"><i className="fa fa-facebook-square"></i></a></li>
-							<li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-							<li><a href="#"><i className="fa fa-google-plus-square"></i></a></li>
-							<li><a href="#"><i className="fa fa-vimeo-square"></i></a></li>
-							<li><a href="#"><i className="fa fa-youtube-square"></i></a></li>
-							<li><a href="#"><i className="fa fa-tumblr-square"></i></a></li>
-							<li><a href="#"><i className="fa fa-linkedin-square"></i></a></li>
+							<li><a href=""><i className="fa fa-facebook-square"></i></a></li>
+							<li><a href=""><i className="fa fa-twitter-square"></i></a></li>
+							<li><a href=""><i className="fa fa-google-plus-square"></i></a></li>
+							<li><a href=""><i className="fa fa-vimeo-square"></i></a></li>
+							<li><a href=""><i className="fa fa-youtube-square"></i></a></li>
+							<li><a href=""><i className="fa fa-tumblr-square"></i></a></li>
+							<li><a href=""><i className="fa fa-linkedin-square"></i></a></li>
 						</ul>
 						<form action="#" className="form subscribe-form">
 							<p className="text-uppercase mtb20">get subscribed to the photography tips and news</p>
