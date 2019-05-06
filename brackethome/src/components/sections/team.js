@@ -3,7 +3,7 @@ import React from 'react';
 const Team = () => {
     return <section id="teams" className="ptb100">
 			<div className="container">
-				<h3 className="section-title wow fadeInDown">The Best Team</h3>
+				<h3 className="section-title wow fadeInDown">El Mejor Equipo</h3>
 				<p className="section-info col-sm-8 col-sm-offset-2 wow fadeInDown" data-wow-dealy=".25s">
 					There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
 				</p>
