@@ -12,11 +12,11 @@ const Clients = () => {
 				<div className="row">
 					<div className="col-sm-12">
 						<ul className="list-inline text-center">
-							<li className="each-client"><a href=""><img src="img/clients/logo-01.png" alt="client"/></a></li>
-							<li className="each-client"><a href=""><img src="img/clients/logo-02.png" alt="client"/></a></li>
-							<li className="each-client"><a href=""><img src="img/clients/logo-03.png" alt="client"/></a></li>
-							<li className="each-client"><a href=""><img src="img/clients/logo-04.png" alt="client"/></a></li>
-							<li className="each-client"><a href=""><img src="img/clients/logo-05.png" alt="client"/></a></li>
+							<li className="each-client"><a href="#top"><img src="img/clients/logo-01.png" alt="client"/></a></li>
+							<li className="each-client"><a href="#top"><img src="img/clients/logo-02.png" alt="client"/></a></li>
+							<li className="each-client"><a href="#top"><img src="img/clients/logo-03.png" alt="client"/></a></li>
+							<li className="each-client"><a href="#top"><img src="img/clients/logo-04.png" alt="client"/></a></li>
+							<li className="each-client"><a href="#top"><img src="img/clients/logo-05.png" alt="client"/></a></li>
 						</ul>
 					</div>
 				</div>

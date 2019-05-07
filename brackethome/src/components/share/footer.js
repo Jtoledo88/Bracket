@@ -10,13 +10,13 @@ const Footer = () => {
 					</div>
 					<div className="col-sm-4 col-sm-offset-4">
 						<ul className="social-icon-footer list-inline mtb50">
-							<li><a href=""><i className="fa fa-facebook-square"></i></a></li>
-							<li><a href=""><i className="fa fa-twitter-square"></i></a></li>
-							<li><a href=""><i className="fa fa-google-plus-square"></i></a></li>
-							<li><a href=""><i className="fa fa-vimeo-square"></i></a></li>
-							<li><a href=""><i className="fa fa-youtube-square"></i></a></li>
-							<li><a href=""><i className="fa fa-tumblr-square"></i></a></li>
-							<li><a href=""><i className="fa fa-linkedin-square"></i></a></li>
+							<li><a href="#top"><i className="fa fa-facebook-square"></i></a></li>
+							<li><a href="#top"><i className="fa fa-twitter-square"></i></a></li>
+							<li><a href="#top"><i className="fa fa-google-plus-square"></i></a></li>
+							<li><a href="#top"><i className="fa fa-vimeo-square"></i></a></li>
+							<li><a href="#top"><i className="fa fa-youtube-square"></i></a></li>
+							<li><a href="#top"><i className="fa fa-tumblr-square"></i></a></li>
+							<li><a href="#top"><i className="fa fa-linkedin-square"></i></a></li>
 						</ul>
 						<form action="#" className="form subscribe-form">
 							<p className="text-uppercase mtb20">get subscribed to the photography tips and news</p>
@@ -32,7 +32,7 @@ const Footer = () => {
 					<div className="row">
 						<div className="col-sm-6 col-sm-offset-4">
 							<p className="info">
-								&copy; <a href="https://www.frittt.com/" target="_blank">Frittt Templates</a>. Free Photography Website Template.
+								&copy; <a href="#top">Frittt Templates</a>. Free Photography Website Template.
 							</p>
 						</div>
 					</div>

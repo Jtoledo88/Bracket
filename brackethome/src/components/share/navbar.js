@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 const NavBar = () => {
-    return <nav id="main-navigation" className="nav-menu nav-menu-vertical nav-menu-right">
+    return <Fragment>
+    
+    	<div className="main-nav">
+			<div className="logo-left">
+				<a data-scroll href="#home">
+					<img src="img/bracketLogo.jpeg" alt="logo"/>
+				</a>
+			</div>
+			<div className="menu-button toggle-menu menu-right push-body">
+				<button><i className="fa fa-bars"></i></button>
+			</div>
+		</div>
+    
+    	<nav id="main-navigation" className="nav-menu nav-menu-vertical nav-menu-right">
 			<ul className="list-inline">
 				<li className="current"><a href="#home">home</a></li>
 				<li><a href="#features">Desarrollo</a></li>
@@ -12,7 +25,8 @@ const NavBar = () => {
 				<li><a href="#client-feedback">Testimonials</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
-		   </nav>
+		 </nav>
+	  </Fragment>
 }
     
 export default NavBar;

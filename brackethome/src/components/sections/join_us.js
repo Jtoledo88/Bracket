@@ -10,7 +10,7 @@ const Join = () => {
 					</p>
 					<div className="clearfix"></div>
 					<p className="join-btn text-center wow zoomIn">
-						<a href="" className="btn btn-primary">join now</a>
+						<a href="#top" className="btn btn-primary">join now</a>
 					</p>
 				</div>
 			</div>

@@ -1086,6 +1086,10 @@ a:focus{
 #contact{
 	position: relative;
 	overflow: hidden;
+	background-image:  url(../img/maps.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
 }
 #contact .map-content{
 	position: absolute;

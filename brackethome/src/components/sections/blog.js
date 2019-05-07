@@ -14,12 +14,12 @@ const Blog = () =>{
 					<div className="col-sm-4 each-post wow fadeIn" data-wow-delay=".25s">
 						<div className="content">
 							<div className="blog-img">
-								<a href="javascript:"><img src="img/blog/01.jpg" className="img-100p" alt="latest blog"/></a>
+								<a href="#top"><img src="img/blog/01.jpg" className="img-100p" alt="latest blog"/></a>
 							</div>
 							<div className="info">
 								<p className="date">11 Sep</p>
 								<h4 className="headline">
-									<a href="javascript:">Why a photography website template important?</a>
+									<a href="#top">Why a photography website template important?</a>
 								</h4>
 								<p>
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -31,12 +31,12 @@ const Blog = () =>{
 					<div className="col-sm-4 each-post wow fadeIn" data-wow-delay=".45s">
 						<div className="content">
 							<div className="blog-img">
-								<a href="javascript:"><img src="img/blog/02.jpg" className="img-100p" alt="latest blog"/></a>
+								<a href="#top"><img src="img/blog/02.jpg" className="img-100p" alt="latest blog"/></a>
 							</div>
 							<div className="info">
 								<p className="date">02 Oct</p>
 								<h4 className="headline">
-									<a href="javascript:">Responsive and free website template (HTML/CSS)</a>
+									<a href="#top">Responsive and free website template (HTML/CSS)</a>
 								</h4>
 								<p>
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -48,12 +48,12 @@ const Blog = () =>{
 					<div className="col-sm-4 each-post wow fadeIn" data-wow-delay=".65s">
 						<div className="content">
 							<div className="blog-img">
-								<a href="javascript:"><img src="img/blog/03.jpg" className="img-100p" alt="latest blog"/></a>
+								<a href="#top"><img src="img/blog/03.jpg" className="img-100p" alt="latest blog"/></a>
 							</div>
 							<div className="info">
 								<p className="date">18 Oct</p>
 								<h4 className="headline">
-									<a href="javascript:">Download free photography website template</a>
+									<a href="#top">Download free photography website template</a>
 								</h4>
 								<p>
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -62,7 +62,7 @@ const Blog = () =>{
 						</div>
 					</div>
 					<div className="col-sm-12 read-more-button wow zoomIn">
-						<p className="text-uppercase text-center"><a href="javascript:">View All</a></p>
+						<p className="text-uppercase text-center"><a href="#top">View All</a></p>
 					</div>
 				</div>
 			</div>

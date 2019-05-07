@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import NavBar from '../share/navbar.js';
 import Slider from '../sections/slider.js';
 import Developer from '../sections/develop.js';
@@ -17,19 +17,7 @@ import Footer from '../share/footer.js';
 export default class Home extends Component {
 	render (){
   return (
-
-    <div id="wrapper">
-		<div class="main-nav">
-			<div class="logo-left">
-				<a data-scroll href="#home">
-					<img src="img/bracketLogo.jpeg" alt="logo"/>
-				</a>
-			</div>
-			<div class="menu-button toggle-menu menu-right push-body">
-				<button><i class="fa fa-bars"></i></button>
-			</div>
-		</div>
-
+  	<Fragment>
 		<NavBar/>
 
 		<Slider/>
@@ -55,8 +43,8 @@ export default class Home extends Component {
 		<Contact/>
 
 		<Footer/>
+</Fragment>
 
-	</div>
 		);
 	}
 }

@@ -11,11 +11,11 @@ const Comunnity = () => {
 
 				<div className="portfolio-content">
 					<ul className="portfolio-filter text-center list-inline mtb40 text-uppercase">
-						<li><a className="active" href="" data-filter="*"> All</a></li>
-						<li><a href="" data-filter=".wedding">Wedding</a></li>
-						<li><a href="" data-filter=".festival">Festival</a></li>
-						<li><a href="" data-filter=".engagement">Engagement</a></li>
-						<li><a href="" data-filter=".birthday">Birthday</a></li>
+						<li><a className="active" href="#top" data-filter="*"> All</a></li>
+						<li><a href="#top" data-filter=".wedding">Wedding</a></li>
+						<li><a href="#top" data-filter=".festival">Festival</a></li>
+						<li><a href="#top" data-filter=".engagement">Engagement</a></li>
+						<li><a href="#top" data-filter=".birthday">Birthday</a></li>
 					</ul>
 					<div className="portfolio-items">
 						<div className="col-lg-3 col-md-4 col-sm-6 portfolio-item festival wedding">

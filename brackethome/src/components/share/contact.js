@@ -20,7 +20,7 @@ const Contact = () => {
 								<input type="text" className="form-control" placeholder="Email Address"/>
 								<input type="text" className="form-control" placeholder="Contact Number"/>
 								<textarea name="" className="form-control" cols="30" rows="5" placeholder="Your Message"></textarea>
-								<a className="btn-block btn btn-submit text-uppercase">Send Message Now</a>
+								<span className="btn-block btn btn-submit text-uppercase">Send Message Now</span>
 							</form>
 						</div>
 					</div>

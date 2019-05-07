@@ -17,9 +17,9 @@ const Team = () => {
 								<figcaption className="caption">
 									<div className="color-overlay overflow-content-full">
 										<ul className="social-icon horizontal-vertical-center list-inline">
-											<li><a href=""><i className="fa fa-facebook-official "></i></a></li>
-											<li><a href=""><i className="fa fa-twitter-square"></i></a></li>
-											<li><a href=""><i className="fa fa-google-plus-square "></i></a></li>
+											<li><a href="#top"><i className="fa fa-facebook-official "></i></a></li>
+											<li><a href="#top"><i className="fa fa-twitter-square"></i></a></li>
+											<li><a href="#top"><i className="fa fa-google-plus-square "></i></a></li>
 										</ul>
 									</div>
 								</figcaption>
@@ -40,9 +40,9 @@ const Team = () => {
 								<figcaption className="caption">
 									<div className="color-overlay overflow-content-full">
 										<ul className="social-icon horizontal-vertical-center list-inline">
-											<li><a href=""><i className="fa fa-facebook-official "></i></a></li>
-											<li><a href=""><i className="fa fa-twitter-square"></i></a></li>
-											<li><a href=""><i className="fa fa-google-plus-square "></i></a></li>
+											<li><a href="#top"><i className="fa fa-facebook-official "></i></a></li>
+											<li><a href="#top"><i className="fa fa-twitter-square"></i></a></li>
+											<li><a href="#top"><i className="fa fa-google-plus-square "></i></a></li>
 										</ul>
 									</div>
 								</figcaption>
@@ -63,9 +63,9 @@ const Team = () => {
 								<figcaption className="caption">
 									<div className="color-overlay overflow-content-full">
 										<ul className="social-icon horizontal-vertical-center list-inline">
-											<li><a href=""><i className="fa fa-facebook-official "></i></a></li>
-											<li><a href=""><i className="fa fa-twitter-square"></i></a></li>
-											<li><a href=""><i className="fa fa-google-plus-square "></i></a></li>
+											<li><a href="#top"><i className="fa fa-facebook-official "></i></a></li>
+											<li><a href="#top"><i className="fa fa-twitter-square"></i></a></li>
+											<li><a href="#top"><i className="fa fa-google-plus-square "></i></a></li>
 										</ul>
 									</div>
 								</figcaption>
@@ -86,9 +86,9 @@ const Team = () => {
 								<figcaption className="caption">
 									<div className="color-overlay overflow-content-full">
 										<ul className="social-icon horizontal-vertical-center list-inline">
-											<li><a href=""><i className="fa fa-facebook-official "></i></a></li>
-											<li><a href=""><i className="fa fa-twitter-square"></i></a></li>
-											<li><a href=""><i className="fa fa-google-plus-square "></i></a></li>
+											<li><a href="#top"><i className="fa fa-facebook-official "></i></a></li>
+											<li><a href="#top"><i className="fa fa-twitter-square"></i></a></li>
+											<li><a href="#top"><i className="fa fa-google-plus-square "></i></a></li>
 										</ul>
 									</div>
 								</figcaption>

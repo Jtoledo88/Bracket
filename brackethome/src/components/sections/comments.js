@@ -13,19 +13,19 @@ const Comments = () => {
 							<ul className="bx-slider main-content">
 								<li>
 									<p>There is just something so fun about this one pager for the photography website template. The typography and load transitions are just awesome adding to the uplifting tone that all weddings aim to have.</p>
-									<p className="client-name"><a href="">J. Donga</a></p>
+									<p className="client-name"><a href="#top">J. Donga</a></p>
 								</li>
 								<li>
 									<p>There is just something so fun about this one pager for the photography website template. The typography and load transitions are just awesome adding to the uplifting tone that all weddings aim to have.</p>
-									<p className="client-name"><a href="">D. John</a></p>
+									<p className="client-name"><a href="#top">D. John</a></p>
 								</li>
 								<li>
 									<p>There is just something so fun about this one pager for the photography website template. The typography and load transitions are just awesome adding to the uplifting tone that all weddings aim to have.</p>
-									<p className="client-name"><a href="">S. Dongian</a></p>
+									<p className="client-name"><a href="#top">S. Dongian</a></p>
 								</li>
 								<li>
 									<p>There is just something so fun about this one pager for the photography website template. The typography and load transitions are just awesome adding to the uplifting tone that all weddings aim to have.</p>
-									<p className="client-name"><a href="">P. Donga</a></p>
+									<p className="client-name"><a href="#top">P. Donga</a></p>
 								</li>
 							</ul>
 						</div>
