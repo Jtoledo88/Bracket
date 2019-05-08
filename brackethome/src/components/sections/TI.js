@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Blog = () =>{
+const TI = () =>{
     return <section id="latest-blog" className="mtb100">
 			<div className="container">
-				<h3 className="section-title wow fadeInDown">Oven Hot News</h3>
+				<h3 className="section-title wow fadeInDown">Servicios de TI</h3>
 				<p className="section-info col-sm-8 col-sm-offset-2 wow fadeInDown" data-wow-delay=".25s">
 					There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
 				</p>
@@ -19,7 +19,7 @@ const Blog = () =>{
 							<div className="info">
 								<p className="date">11 Sep</p>
 								<h4 className="headline">
-									<a href="#top">Why a photography website template important?</a>
+									<a href="#top">Desarrollo e instalación de Redes</a>
 								</h4>
 								<p>
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -36,7 +36,7 @@ const Blog = () =>{
 							<div className="info">
 								<p className="date">02 Oct</p>
 								<h4 className="headline">
-									<a href="#top">Responsive and free website template (HTML/CSS)</a>
+									<a href="#top">Arreindo de Equipos para Eventos</a>
 								</h4>
 								<p>
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -53,7 +53,7 @@ const Blog = () =>{
 							<div className="info">
 								<p className="date">18 Oct</p>
 								<h4 className="headline">
-									<a href="#top">Download free photography website template</a>
+									<a href="#top">Instalación de Servidores</a>
 								</h4>
 								<p>
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -69,4 +69,4 @@ const Blog = () =>{
 		</section>
 }
 
-export default Blog;
+export default TI;

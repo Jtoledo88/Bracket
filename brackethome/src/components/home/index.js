@@ -4,9 +4,9 @@ import Slider from '../sections/slider.js';
 import Developer from '../sections/develop.js';
 import Design from '../sections/design.js';
 import Comunnity from '../sections/community.js';
+import TI from '../sections/TI.js';
 import Stadistic from '../sections/stadistics.js';
 import Team from '../sections/team.js';
-import Blog from '../sections/blog.js';
 import Comments from '../sections/comments.js';
 import Clients from '../sections/clients.js';
 import Join from '../sections/join_us.js';
@@ -28,11 +28,11 @@ export default class Home extends Component {
 
 		<Comunnity/>
 
+		<TI/>
+		
 		<Stadistic/>
 
 		<Team/>
-
-		<Blog/>
 
 		<Comments/>
 

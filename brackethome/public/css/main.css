@@ -770,7 +770,7 @@ a:focus{
 	font-size: 22px;
 }
 .each-post .headline a{
-	color: #454545;
+	color: #fff;
 }
 .each-post .headline a:hover{
 	color: #F0394C;
@@ -949,6 +949,10 @@ a:focus{
 	border-color: #F0394C;
 	color: #fff;
 }
+#latest-blog.mtb100 {
+	background-color: rgba(16,19,38,.9);
+	margin-bottom: 0px;
+}
 /*-----  End of latest-blog-page  ------*/
 
 
@@ -1125,6 +1129,7 @@ a:focus{
 	padding: 20px;
 	background: none;
 	color: #fff;
+	background-color: rgba(255,255,255,.9);
 }
 #contact .form input:focus,
 #contact .form textarea:focus{
