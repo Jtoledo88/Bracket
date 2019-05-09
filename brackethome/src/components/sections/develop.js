@@ -36,6 +36,9 @@ const Developer = () => {
 					</div>
 
 				</div>
+					<p className="join-btn text-center wow zoomIn">
+						<a href="#top" className="btn btn-primary">Ver más</a>
+					</p>
 			</div>
 		</section>
 }

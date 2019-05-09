@@ -62,7 +62,9 @@ const TI = () =>{
 						</div>
 					</div>
 					<div className="col-sm-12 read-more-button wow zoomIn">
-						<p className="text-uppercase text-center"><a href="#top">View All</a></p>
+							<p id="button" className="join-btn text-center wow zoomIn">
+						<a href="#top" className="btn btn-primary">Ver más</a>
+					</p>
 					</div>
 				</div>
 			</div>

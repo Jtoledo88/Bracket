@@ -1043,6 +1043,7 @@ a:focus{
 .submit-button .btn-primary:focus{
 	outline: none;
 }
+
 /*-----  End of comments section  ------*/
 
 /*-----  End of blog-details  ------*/
@@ -1079,7 +1080,9 @@ a:focus{
 	color: #fff;
 	background: #333;
 }
-
+#button {
+	margin-bottom: 50px;
+}
 /*-----  End of join-us  ------*/
 
 

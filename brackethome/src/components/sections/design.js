@@ -40,8 +40,11 @@ const Design = () => {
                              <p className="timing">28 Oct, 2015 by John Donga<br/>Saturdays & Sundays<br/>8 pm - 10 pm</p>
                              <p className="timing">28 Oct, 2015 by John Donga<br/>Saturdays & Sundays<br/>8 pm - 10 pm</p>
                              </div>
-
+                             	
 					</div>
+					<p className="join-btn text-center wow zoomIn">
+						<a href="#top" className="btn btn-primary">Ver más</a>
+					</p>
 				</div>
 			</div>
 		</section>
