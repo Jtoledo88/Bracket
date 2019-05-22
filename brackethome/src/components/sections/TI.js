@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TI = () =>{
     return <section id="latest-blog" className="mtb100">
@@ -63,7 +64,7 @@ const TI = () =>{
 					</div>
 					<div className="col-sm-12 read-more-button wow zoomIn">
 							<p id="button" className="join-btn text-center wow zoomIn">
-						<a href="#top" className="btn btn-primary">Ver más</a>
+						<Link to="/itSolutions" className="btn btn-primary">Ver más</Link>
 					</p>
 					</div>
 				</div>
