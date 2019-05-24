@@ -1,0 +1,54 @@
+/* ciber_riesgos.html */
+
+#video_background {
+    position: relative;
+    background-color: black;
+    height: 100%;
+    min-height: -webkit-fill-available;
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  
+  #video_background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  #video_background .container {
+    position: relative;
+    z-index: 2;
+  }
+  #video_background .container h1{
+      font-size: 40pt;
+  }
+  
+  #video_background .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: black;
+    opacity: 0.8; */
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    #video_background {
+      background: url('../img/server-1235959_1920.jpg') black no-repeat center center scroll;
+    }
+    #video_background video {
+      display: none;
+    }
+  }

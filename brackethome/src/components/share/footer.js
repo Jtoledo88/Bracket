@@ -5,7 +5,7 @@ const Footer = () => {
 			<div className="container bottom-part">
 				<div className="row">
 					<div className="col-sm-4 left-part">
-						<p className="footer-logo "><img src="img/bracketLogo.jpeg" alt="logo"/></p><br/>
+						<p className="footer-logo "><img src="img/bracketLogo.png" alt="logo"/></p><br/>
 						<p>This free website template is the first step to get you started with your personal photography website. Learn the game and get some fame. Don't restrict your photography viewership to your close circle. Go beyond and make it public on your photography website. </p>
 					</div>
 					<div className="col-sm-4 col-sm-offset-4">
