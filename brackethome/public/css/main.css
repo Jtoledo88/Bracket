@@ -175,7 +175,7 @@ a:focus{
 }
 
 .loader .loader-progress { 
-	background-color: #F0394C;
+	background-color: rgb(100, 57, 240);
 	position: fixed;
 	z-index: 2000;
 	top: 50%;
@@ -325,7 +325,7 @@ a:focus{
   overflow: hidden;
 }
 .caption .btn-start:hover{
-	color: #F0394C;
+	color: #0d6f7f;
 	background:#fff;
 	}
 
@@ -707,7 +707,7 @@ a:focus{
 	overflow: hidden;
 }
 .team-member .caption .color-overlay{
-	background: rgba(240, 57, 76, 0.7);
+	background: #512564ab;
 	left: 100%;
 	opacity: 0;
 	-webkit-transition: all .3s;
@@ -773,7 +773,7 @@ a:focus{
 	color: #fff;
 }
 .each-post .headline a:hover{
-	color: #F0394C;
+	color: #0d6f7f;
 }
 .read-more-button{
 	margin-top: 80px;
@@ -1137,10 +1137,10 @@ a:focus{
 #contact .form input:focus,
 #contact .form textarea:focus{
 	box-shadow: none;
-	border-color: #F0394C;
+	border-color: #0d6f7f;
 }
 #contact .form .btn-submit{
-	background: #F0394C;
+	background: #0d6f7f;
 	color: #fff;
 	padding: 12px;
 }
@@ -1175,7 +1175,7 @@ a:focus{
 	font-size: 30px;
 }
 .social-icon-footer li a:hover{
-	color: #F0394C;
+	color: #0d6f7f;
 }
 .subscribe-form p{
 	color: #999999;
@@ -1193,7 +1193,7 @@ a:focus{
 .subscribe-form input:focus{
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	border-color: #F0394C;
+	border-color: #0d6f7f;
 }
 .subscribe-form input::-webkit-input-placeholder {
    color: #666666;
@@ -1216,7 +1216,7 @@ a:focus{
 	font-size: 12px;
 }
 .copyright .info a:hover{
-	color: #F0394C;
+	color: #0d6f7f;
 }
 /*-----  End of footer  ------*/
 
