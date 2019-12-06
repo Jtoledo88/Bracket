@@ -6,14 +6,14 @@ export default class Nav extends Component {
     render(){
         return (
             <Fragment>
-              	<nav className="main-nav navbar navbar-inverse">
+              	<nav className="main-nav">
 			        <div className="logo-left">
 				        <Link data-scroll to="/">
 					    <img src="img/bracketLogo.png" alt="logo"/>
 				        </Link>
 			        </div>
-			        <div className="menu-button toggle-menu menu-right push-body">
-				        <button><i className="fa fa-bars"></i></button>
+			        <div className="menu-button toggle-menu push-body">
+				        <Link to="/"><button><i class="fa fa-arrow-left"></i></button></Link>
 			        </div>
 		        </nav>
             </Fragment>

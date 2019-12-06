@@ -1,7 +1,7 @@
-# homePage
-Pagina principal Bracket CL Ltda
+# HomePage
+Pagina principal proyecto 'Building Administrator'
 
-Repositorio para la creación de la página principal de Bracket, la idea es que todos podamos aportar y mejorar la página cada vez que sea necesario.
+Repositorio para la creación del proyecto, la idea es que todos podamos aportar y mejorar la página cada vez que sea necesario.
 
 Parametros:
 

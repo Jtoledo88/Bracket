@@ -6,7 +6,7 @@ const Footer = () => {
 				<div className="row">
 					<div className="col-sm-4 left-part">
 						<p className="footer-logo "><img src="img/bracketLogo.png" alt="logo"/></p><br/>
-						<p>This free website template is the first step to get you started with your personal photography website. Learn the game and get some fame. Don't restrict your photography viewership to your close circle. Go beyond and make it public on your photography website. </p>
+						
 					</div>
 					<div className="col-sm-4 col-sm-offset-4">
 						<ul className="social-icon-footer list-inline mtb50">
@@ -18,10 +18,7 @@ const Footer = () => {
 							<li><a href="#top"><i className="fa fa-tumblr-square"></i></a></li>
 							<li><a href="#top"><i className="fa fa-linkedin-square"></i></a></li>
 						</ul>
-						<form action="#" className="form subscribe-form">
-							<p className="text-uppercase mtb20">get subscribed to the photography tips and news</p>
-							<input type="email" className="form-control" placeholder="Enter your email:"/>
-						</form>
+					
 					</div>
 				</div>
 			</div>
