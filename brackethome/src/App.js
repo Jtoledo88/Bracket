@@ -3,7 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 
 import Home from './components/home/index.js';
-import itSolutions from './components/views/itsolutions.js';
+import admin from './components/views/admin.js';
 
 
 
@@ -18,7 +18,7 @@ class App extends Component {
             <BrowserRouter>
                 <div>
                     <Route exact path="/" component={Home} />
-                    <Route path="/itSolutions" component={itSolutions} />
+                    <Route path="/admin" component={admin} />
                   
                 </div>
             </BrowserRouter>  

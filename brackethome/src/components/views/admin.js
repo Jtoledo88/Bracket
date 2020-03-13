@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import Nav from '../share/navbarView.js';
 import Footer from '../share/footer.js';
 
-const itSolutions = () => {
+const admin = () => {
     return  <Fragment>
                 <Nav/>
                 <section id="count-down" className="text-center">
@@ -32,4 +32,4 @@ const itSolutions = () => {
             </Fragment>
 } 
 
-export default itSolutions;
+export default admin;
